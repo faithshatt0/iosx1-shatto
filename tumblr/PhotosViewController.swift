@@ -41,6 +41,10 @@ UITableViewDataSource,UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return posts.count;
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
     @IBOutlet weak var photosTableView: UITableView!
     
     override func viewDidLoad() {
@@ -70,6 +74,14 @@ UITableViewDataSource,UITableViewDelegate {
         }
         task.resume()
         // Do any additional setup after loading the view.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        var vc = segue.destination as! PhotoDetailsViewController
+        let cell = sender as! PhotoCell
+        let indexPath = photosTableView.indexPath(for: cell)!
+        
+        vc.image = cell.postView.image
     }
     
 

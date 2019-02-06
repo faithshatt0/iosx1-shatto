@@ -18,6 +18,7 @@
 		DC4027DD220254A0003E3434 /* tumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4027DC220254A0003E3434 /* tumblrUITests.swift */; };
 		DC4027EB220255B8003E3434 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4027EA220255B8003E3434 /* PhotosViewController.swift */; };
 		DC4027ED22025CA6003E3434 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4027EC22025CA6003E3434 /* PhotoCell.swift */; };
+		DCC1F65B220A4AA000B8060A /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC1F65A220A4AA000B8060A /* PhotoDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		DC4027DE220254A0003E3434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC4027EA220255B8003E3434 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		DC4027EC22025CA6003E3434 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		DCC1F65A220A4AA000B8060A /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				DC4027C5220254A0003E3434 /* LaunchScreen.storyboard */,
 				DC4027C8220254A0003E3434 /* Info.plist */,
 				DC4027EA220255B8003E3434 /* PhotosViewController.swift */,
+				DCC1F65A220A4AA000B8060A /* PhotoDetailsViewController.swift */,
 			);
 			path = tumblr;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC1F65B220A4AA000B8060A /* PhotoDetailsViewController.swift in Sources */,
 				DC4027BD22025490003E3434 /* AppDelegate.swift in Sources */,
 				DC4027ED22025CA6003E3434 /* PhotoCell.swift in Sources */,
 				DC4027EB220255B8003E3434 /* PhotosViewController.swift in Sources */,
